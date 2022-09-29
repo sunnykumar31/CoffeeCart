@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px white;
+    text-decoration: none;
+}
+#logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* border: 2px solid white; */
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#navbarcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+}
+#frontpage{
+    width: 100%;
+    height: 100vh;
+    background: url("./Image/home-img.jpeg") center no-repeat;
+    color: white;
+    background-position: 100%;
+}
+#frontaside{
+    width: 500px;
+    height: 600px;
+    z-index: 1;
+    padding-top: 200px;
+    margin-left: 100px;
+
+}
+#frontbutton{
+    color: white;
+    background-color:gold;
+}
+#fronthead{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#frontpara{
+    margin-top: 20px;
+    margin-bottom:20px;
+    font-size: 20px;
+}
+#frontbutton{
+    width: 150px;
+    height: 40px;
+    /* font-size: 30px; */
+    font-weight: bolder;
+}
+#about{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#aboutheader{
+    font-size: 80px;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+#aboutcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+#aboutimage{
+    /* background:url("./Image/about-img.jpeg"); */
+}
+#aboutcontent{
+    background-color: black;
+    color: white;
+    padding-top: 120px ;
+    margin-left: 10px;
+}
+#aboutsubcontent{
+    width: 600px;
+}
+#aboutheadpara{
+    font-size: 40px;
+    font-weight: bolder;
+}
+#aboutsubpara1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#aboutsubpara2{
+    margin-bottom: 20px ;
+}
+#aboutbutton{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: gold;
+}
+
+
