@@ -16,6 +16,7 @@ nav{
     font-size: 20px;
     box-shadow: 2px 2px 2px white;
     text-decoration: none;
+    position: sticky;
 }
 #logo{
     width: 80px;
@@ -74,6 +75,8 @@ a{
     /* font-size: 30px; */
     font-weight: bolder;
 }
+
+
 #about{
     width: 100%;
     height: 100vh;
@@ -92,9 +95,6 @@ a{
 #aboutcontainer{
     display: flex;
     justify-content: space-between;
-}
-#aboutimage{
-    /* background:url("./Image/about-img.jpeg"); */
 }
 #aboutcontent{
     background-color: black;
@@ -122,5 +122,284 @@ a{
     color: white;
     background-color: gold;
 }
+#menu{
+    width: 100%;
+    height: 900px;
+    /* box-shadow: 10px 10px 5px 10px rgb(246, 4, 4); */
+    /* display: flex;
+    justify-content: center; */
+    background-color: black;
+}
+#menuh1{
+    font-size: 80px;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+}
+#menufirst,#menusecond{
+    width: 1200px;
+    height:400px;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: left;
+    gap: 40px;
+    align-items: center;
+    /* box-shadow: 3px 3px 3px 3px rgb(193, 127, 177); */
+    /* margin-bottom: 50px; */
+    margin-left: 150px;
+    /* background-color: black; */
+}
+.menufirst1,.menusecond1{
+    width: 250px;
+    height: 300px;
+    box-shadow: 1px 1px 1px 2px rgb(92, 92, 92);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top:10px ;
+    background-color:black;
+    color: white;
+}
+.menufirst1:hover,.menusecond1:hover{
+    box-shadow: 5px 5px rgb(124, 122, 122);
+    transform: scale(1.05,1.05);
+    animation: shift .5s linear;
+}
+@keyframes shift {
+    0%{
+        transform: translateX(0px);
+        /* transform: rotate(-180deg); */
+    }
+    50%{
+        transform: translateX(10px);
+        /* transform: rotate(180deg); */
+        
+    }
+    100%{
+        transform: translateX(0px);
+        /* transform: rotate(180deg); */
+    }
+}
+.menubutton{
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    /* box-shadow: 1px 1px rgb(170, 169, 169); */
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: gold;
+    /* box-shadow: 1px 1px 1px 2px rgb(43, 157, 238); */
+    
+
+}
+.menubutton:hover{
+    background-color: rgb(153, 147, 147);
+    color: aliceblue;
+
+}
+.menuimg{
+    /* width: 100px; */
+    /* height: 70px; */
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    /* object-fit: scale-down; */
+    /* box-shadow: 1px 1px 1px 2px white */
+
+}
+.menupara{
+    font-size: 18px;
+    font-weight: bolder;
+}
 
 
+#product{
+    width: 100%;
+    height: 700px;
+    /* box-shadow: 10px 10px 5px 10px rgb(246, 4, 4); */
+    /* display: flex;
+    justify-content: center; */
+    background-color: black;
+}
+#producth1{
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+}
+#productfirst{
+    width: 1200px;
+    height:600px;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: left;
+    gap: 200px;
+    align-items: center;
+    /* box-shadow: 3px 3px 3px 3px rgb(193, 127, 177); */
+    /* margin-bottom: 50px; */
+    margin-left: 150px;
+    /* background-color: black; */
+}
+.productfirst1{
+    width: 250px;
+    height: 500px;
+    box-shadow: 1px 1px 1px 1px rgb(92, 92, 92);
+    border-radius: 10px;
+    row-gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top:10px ;
+    background-color:black;
+    color: white;
+}
+.productfirst1:hover{
+    box-shadow: 5px 5px rgb(124, 122, 122);
+    transform: scale(1.05,1.05);
+    /* animation: shift .5s linear; */
+}
+@keyframes shift {
+    0%{
+        transform: translateX(0px);
+        /* transform: rotate(-180deg); */
+    }
+    50%{
+        transform: translateX(10px);
+        /* transform: rotate(180deg); */
+        
+    }
+    100%{
+        transform: translateX(0px);
+        /* transform: rotate(180deg); */
+    }
+}
+
+.productimg{
+    width: 150px;
+    height: 250px;
+    border-radius: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    /* object-fit: scale-down; */
+    /* box-shadow: 1px 1px 1px 2px white */
+
+}
+.productpara{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+#coustomer{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+#coustomerh1{
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+}
+#coustomerfirst{
+    width: 1200px;
+    height:700px;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: left;
+    gap: 100px;
+    align-items: center;
+    margin-left: 150px;
+}
+.coustomerfirst1{
+    width: 400px;
+    height: 600px;
+    box-shadow: 1px 1px 1px 2px rgb(92, 92, 92);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top:10px ;
+    background-color:black;
+    color: white;
+}
+.coustomerfirst1:hover{
+    box-shadow: 5px 5px rgb(124, 122, 122);
+    transform: scale(1.05,1.05);
+}
+.coustomerbutton:hover{
+    background-color: rgb(153, 147, 147);
+    color: aliceblue;
+
+}
+.coustomerimg{
+    /* width: 300px;
+    height: 200px;
+    border-radius: 50%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+.coustomerpara{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.coustomerpara1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bolder; */
+    /* padding-left: 10px; */
+    /* justify-content: center; */
+}
+
+#contact{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+#contacth1{
+    padding-bottom: 50px;
+    font-size: 70px;
+}
+#contactformh1{
+    font-size: 40px;
+    font-weight:lighter;
+}
+#contactform{
+    width: 600px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    border: 2px solid grey;
+}
+input{
+    width: 400px;
+    height: 40px;
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+}
+.contactbutton{
+    width: 150px;
+    height: 40px;
+    background-color: gold;
+    color: white;
+}
